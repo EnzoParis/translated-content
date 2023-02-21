@@ -31,7 +31,7 @@ const regex1 = new RegExp('toto', 'gd');
 console.log(regex1.hasIndices); // Affiche : true
 
 console.log(regex1.exec(str1).indices[0]); // Affiche : Array [0, 3]
-console.log(regex1.exec(str1).indices[0]); // Affiche : Array [8, 11]
+console.log(regex1.exec(str1).indices[0]); // Affiche : Array [10, 13]
 
 const str2 = 'toto truc toto';
 
